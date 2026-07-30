@@ -4,7 +4,23 @@
     "tailwindcss": "^4.3.3"
   },
   "scripts": {
-    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
-    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --minify"
-  }
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --minify"
+  },
+  "name": "s1-tw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/al4m-2068/whitepace-slicing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/al4m-2068/whitepace-slicing/issues"
+  },
+  "homepage": "https://github.com/al4m-2068/whitepace-slicing#readme",
+  "description": ""
 }
